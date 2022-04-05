@@ -3,7 +3,11 @@ Requires Openssl && Shred
 
 Encrypts Files using AES-256-CBC
 
-To use this script run "keygen {K1}" this generates the 256 bit key. - Probably should keep this safe?
+cp keygen /usr/bin
+cp encrypt /usr/bin
+cp decrypt /usr/bin
+
+Run "keygen {K1}" this generates the 256 bit key. - Probably should keep this safe?
 
 K1 being what u want to call the key.
 

@@ -1,0 +1,4 @@
+#!/bin/bash
+openssl aes-256-cbc -in $1 -out $2 -pbkdf2 -pass file:$3
+shred $1 && rm $1
+echo "Complete"

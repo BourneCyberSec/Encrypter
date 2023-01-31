@@ -1,7 +1,7 @@
 # Encrypter
 Requires Openssl && Shred
 
-Encrypts Files using AES-256-CBC
+Encrypts Files using AES-256
 
 cp keygen /usr/bin
 cp encrypt /usr/bin
